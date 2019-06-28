@@ -31,3 +31,11 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt update
 sudo apt install g++-8 gcc-8 -y
 ```
+
+## How to install ffmpeg?
+From ([3](https://tecadmin.net/install-ffmpeg-on-linux/))
+```
+sudo add-apt-repository ppa:jonathonf/ffmpeg-4
+sudo apt-get update
+sudo apt-get install ffmpeg
+```
