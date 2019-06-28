@@ -58,7 +58,7 @@ export WORKON_HOME=~/.virtualenvs
 mkvirtualenv MYPROJECT_NAME
 ```
 ## Add SSH key
-From ([5] https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)
+From ([5](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html))
 ```
 ssh-keygen
 ```
