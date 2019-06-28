@@ -5,13 +5,13 @@ From ([1](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-ver
 
 Raisim is using cmake>3.10. You can install it from source as
 ```commandline
-version=3.14
-build=5
+export cmake_version=3.14
+export cmake_build=5
 mkdir ~/temp
 cd ~/temp
-wget https://cmake.org/files/v$version/cmake-$version.$build.tar.gz
-tar -xzvf cmake-$version.$build.tar.gz
-cd cmake-$version.$build/
+wget https://cmake.org/files/v$cmake_version/cmake-$cmake_version.$cmake_build.tar.gz
+tar -xzvf cmake-$cmake_version.$cmake_build.tar.gz
+cd cmake-$cmake_version.$cmake_build/
 ./bootstrap
 make -j4
 sudo make install
