@@ -39,3 +39,21 @@ sudo add-apt-repository ppa:jonathonf/ffmpeg-4
 sudo apt-get update
 sudo apt-get install ffmpeg
 ```
+
+## virtualenv
+### setup
+```
+sudo apt-get install python-pip
+sudo pip install virtualenv virtualenvwrapper
+```
+add the following lines to .bashrc
+```
+export WORKON_HOME=~/.virtualenvs
+/usr/local/bin/virtualenvwrapper.sh
+```
+
+### make a new virtualenv
+```
+mkvirtualenv MYPROJECT_NAME
+```
+
