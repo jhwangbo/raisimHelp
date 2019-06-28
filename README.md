@@ -33,7 +33,7 @@ sudo apt install g++-8 gcc-8 -y
 ```
 
 ## How to install ffmpeg?
-From ([3](https://tecadmin.net/install-ffmpeg-on-linux/))
+From ([3](https://tecadmin.net/install-ffmpeg-on-linux/)).
 ```
 sudo add-apt-repository ppa:jonathonf/ffmpeg-4
 sudo apt-get update
@@ -41,6 +41,7 @@ sudo apt-get install ffmpeg
 ```
 
 ## virtualenv
+From ([4](https://medium.com/@aaditya.chhabra/virtualenv-with-virtualenvwrapper-on-ubuntu-34850ab9e765)).
 ### setup
 ```
 sudo apt-get install python-pip
