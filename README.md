@@ -17,7 +17,7 @@ make -j4
 sudo make install
 ```
 
-check if it is properly installed by
+check if it is installed properly by
 ```
 cmake --version
 ```
