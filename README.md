@@ -105,3 +105,14 @@ sudo pkill -SIGHUP dockerd
 # Test nvidia-smi with the latest official CUDA image
 docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
 ```
+
+### use variables defined in your bashrc in clion
+You have to modify your clion.desktop file. If you install normally, it should be located in 
+```/home/YOUR_ID/.local/share/applications/jetbrains-clion.desktop ```
+
+edit the line starting with ```Exec=``` to ```Exec=bash -i -c /WHERE/YOU/DOWNLOADED/CLION/bin/clion.sh```
+
+This ensures that system variables (like LD_LIBRARY_PATH) are visible in clion.
+
+
+
