@@ -106,7 +106,7 @@ sudo pkill -SIGHUP dockerd
 docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
 ```
 
-### use variables defined in your bashrc in clion
+## How to use variables defined in your bashrc in clion
 You have to modify your clion.desktop file. If you install normally, it should be located in 
 ```/home/YOUR_ID/.local/share/applications/jetbrains-clion.desktop ```
 
