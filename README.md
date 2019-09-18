@@ -50,7 +50,7 @@ sudo pip install virtualenv virtualenvwrapper
 add the following lines to .bashrc
 ```
 export WORKON_HOME=~/.virtualenvs
-/usr/local/bin/virtualenvwrapper.sh
+source "/usr/local/bin/virtualenvwrapper.sh"
 ```
 
 ### make a new virtualenv
