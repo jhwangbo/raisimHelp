@@ -118,9 +118,11 @@ This ensures that system variables (like LD_LIBRARY_PATH) are visible in clion.
 # how to install gtest
 From ([8](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/))
 
+```
 sudo apt-get install libgtest-dev
 sudo apt-get install cmake # install cmake
 cd /usr/src/gtest
 sudo cmake CMakeLists.txt
 sudo make
 sudo cp *.a /usr/lib
+```
