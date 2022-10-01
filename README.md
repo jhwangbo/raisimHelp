@@ -1,5 +1,9 @@
 # raisimHelp (For debian distributions)
 
+## Basic tools that I use
+sudo apt install git terminator libeigen3-dev 
+sudo snap install clion
+
 ## How to install cmake?
 From ([1](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line/865294)).
 
