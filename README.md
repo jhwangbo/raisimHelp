@@ -2,6 +2,7 @@
 
 ## Basic tools that I use
 sudo apt install git terminator libeigen3-dev 
+
 sudo snap install clion
 
 ## How to install cmake?
