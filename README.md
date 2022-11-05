@@ -1,9 +1,7 @@
 # raisimHelp (For debian distributions)
 
 ## Basic tools that I use
-sudo apt install git terminator libeigen3-dev doxygen mercurial valgrind liburdfdom-dev curl minizip ffmpeg
-
-sudo snap install clion
+sudo apt install git terminator libeigen3-dev doxygen mercurial valgrind liburdfdom-dev curl minizip ffmpeg && sudo snap install clion --classic && sudo snap install rider --classic
 
 ## How to install cmake?
 From ([1](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line/865294)).
