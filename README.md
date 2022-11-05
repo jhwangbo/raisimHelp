@@ -1,7 +1,7 @@
 # raisimHelp (For debian distributions)
 
 ## Basic tools that I use
-sudo apt install git terminator libeigen3-dev doxygen mercurial valgrind liburdfdom-dev curl
+sudo apt install git terminator libeigen3-dev doxygen mercurial valgrind liburdfdom-dev curl minizip ffmpeg
 
 sudo snap install clion
 
