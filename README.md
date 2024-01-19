@@ -1,7 +1,7 @@
 # raisimHelp (For debian distributions)
 
 ## Basic tools that I use
-sudo apt update && sudo apt install git terminator libeigen3-dev doxygen mercurial valgrind liburdfdom-dev curl minizip ffmpeg libyaml-cpp-dev && sudo snap install clion --classic && sudo snap install rider --classic && sudo snap install cmake --classic
+sudo apt update && sudo apt install -y git terminator libeigen3-dev doxygen mercurial valgrind liburdfdom-dev curl minizip ffmpeg libyaml-cpp-dev && sudo snap install clion --classic && sudo snap install rider --classic && sudo snap install cmake --classic
 
 ## Add SSH key
 From ([5](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html))
